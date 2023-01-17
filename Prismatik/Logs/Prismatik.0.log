@@ -1,0 +1,2045 @@
+
+2022_05_29 21:30:05:575 Prismatik 5.11.2.31
+21:29:31:510 Critical: QWindowsPipeWriter: asynchronous write failed. (The pipe has been ended.)
+21:29:31:512 Debug: bool __cdecl SettingsScope::Settings::Initialize(const class QString &,bool) debugLevel = 1
+21:29:31:516 Debug: Settings file: "C:/Users/ASHIL_RVD/Prismatik/Profiles/monitor1.ini"
+21:29:31:516 Debug: void __cdecl SettingsScope::Settings::initDevicesMap(void)
+21:29:31:516 Debug: void __cdecl SettingsScope::Settings::initCurrentProfile(bool) false
+21:29:31:553 Debug: void __cdecl SettingsScope::Settings::initCurrentProfile(bool) led
+21:29:32:259 Debug: void __cdecl LightpackDiscoveryPage::initializePage(void)
+21:29:32:259 Debug: __cdecl LedDeviceLightpack::LedDeviceLightpack(class QObject *)
+21:29:32:259 Debug: __cdecl LedDeviceLightpack::LedDeviceLightpack(class QObject *) thread id:  0x5824
+21:29:32:259 Debug: __cdecl LedDeviceLightpack::LedDeviceLightpack(class QObject *) initialized
+21:29:32:259 Debug: void __cdecl LedDeviceLightpack::open(void) "hid_open(0x1d50, 0x6022)"
+21:29:32:268 Debug: void __cdecl LedDeviceLightpack::open(void) Lightpack devices not found
+21:29:32:280 Debug: int __cdecl LightpackDiscoveryPage::nextId(void) const
+21:29:32:280 Debug: int __cdecl LightpackDiscoveryPage::nextId(void) const
+21:29:33:809 Debug: bool __cdecl LightpackDiscoveryPage::validatePage(void)
+21:29:33:809 Debug: int __cdecl LightpackDiscoveryPage::nextId(void) const
+21:29:36:674 Debug: __cdecl LedDeviceAdalight::LedDeviceAdalight(const class QString &,const int,class QObject *)
+21:29:36:674 Debug: __cdecl LedDeviceAdalight::LedDeviceAdalight(const class QString &,const int,class QObject *) initialized
+21:29:36:674 Debug: __cdecl LedDeviceLightpack::~LedDeviceLightpack(void) hid_close(...);
+21:29:36:674 Debug: void __cdecl LedDeviceLightpack::closeDevices(void)
+21:29:36:674 Debug: void __cdecl LedDeviceAdalight::setColorSequence(const class QString &) "RGB"
+21:29:36:674 Debug: void __cdecl LedDeviceAdalight::open(void) QObject(0x0)
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Serial device "COM9" open
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Baud rate	: 115200
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Data bits	: QSerialPort::Data8
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Parity		: QSerialPort::NoParity
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Stop bits	: QSerialPort::OneStop
+21:29:36:676 Debug: void __cdecl LedDeviceAdalight::open(void) Flow			: QSerialPort::NoFlowControl
+21:29:36:676 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:29:37:268 Debug: void __cdecl SelectProfilePage::profileRename(void)
+21:29:37:269 Debug: void __cdecl SelectProfilePage::profileRename(void) Nothing has changed
+21:29:37:454 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 0
+21:29:37:475 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 1
+21:29:37:491 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 2
+21:29:37:502 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 3
+21:29:37:514 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 4
+21:29:37:528 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 5
+21:29:37:538 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 6
+21:29:37:550 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 7
+21:29:37:561 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 8
+21:29:37:578 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 9
+21:29:37:591 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 10
+21:29:37:606 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 11
+21:29:37:621 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 12
+21:29:37:633 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 13
+21:29:37:644 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 14
+21:29:37:653 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 15
+21:29:37:663 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 16
+21:29:37:673 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 17
+21:29:37:681 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 18
+21:29:37:692 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 19
+21:29:37:707 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 20
+21:29:37:722 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 21
+21:29:37:735 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 22
+21:29:37:751 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 23
+21:29:37:764 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 24
+21:29:37:774 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 25
+21:29:37:783 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 26
+21:29:37:793 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 27
+21:29:37:802 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 28
+21:29:37:811 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 29
+21:29:37:823 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 30
+21:29:37:835 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 31
+21:29:37:848 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 32
+21:29:37:860 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 33
+21:29:37:870 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 34
+21:29:37:881 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 35
+21:29:37:891 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 36
+21:29:37:901 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 37
+21:29:37:911 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 38
+21:29:37:920 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 39
+21:29:37:933 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 40
+21:29:37:948 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 41
+21:29:37:958 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 42
+21:29:37:973 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 43
+21:29:37:985 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 44
+21:29:37:997 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 45
+21:29:38:009 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 46
+21:29:38:021 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 47
+21:29:38:033 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 48
+21:29:38:043 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 49
+21:29:38:053 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 50
+21:29:38:064 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 51
+21:29:38:077 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 52
+21:29:38:089 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 53
+21:29:38:106 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 54
+21:29:38:121 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 55
+21:29:38:131 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 56
+21:29:38:146 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 57
+21:29:38:156 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 58
+21:29:38:166 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 59
+21:29:38:178 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 60
+21:29:38:189 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 61
+21:29:38:202 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 62
+21:29:38:215 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 63
+21:29:38:228 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 64
+21:29:38:238 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 65
+21:29:38:248 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 66
+21:29:38:259 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 67
+21:29:38:273 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 68
+21:29:38:289 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 69
+21:29:42:067 Debug: __cdecl GrabWidget::~GrabWidget(void) 0
+21:29:42:069 Debug: __cdecl GrabWidget::~GrabWidget(void) 1
+21:29:42:071 Debug: __cdecl GrabWidget::~GrabWidget(void) 2
+21:29:42:072 Debug: __cdecl GrabWidget::~GrabWidget(void) 3
+21:29:42:074 Debug: __cdecl GrabWidget::~GrabWidget(void) 4
+21:29:42:076 Debug: __cdecl GrabWidget::~GrabWidget(void) 5
+21:29:42:078 Debug: __cdecl GrabWidget::~GrabWidget(void) 6
+21:29:42:079 Debug: __cdecl GrabWidget::~GrabWidget(void) 7
+21:29:42:083 Debug: __cdecl GrabWidget::~GrabWidget(void) 8
+21:29:42:086 Debug: __cdecl GrabWidget::~GrabWidget(void) 9
+21:29:42:088 Debug: __cdecl GrabWidget::~GrabWidget(void) 10
+21:29:42:090 Debug: __cdecl GrabWidget::~GrabWidget(void) 11
+21:29:42:093 Debug: __cdecl GrabWidget::~GrabWidget(void) 12
+21:29:42:095 Debug: __cdecl GrabWidget::~GrabWidget(void) 13
+21:29:42:098 Debug: __cdecl GrabWidget::~GrabWidget(void) 14
+21:29:42:103 Debug: __cdecl GrabWidget::~GrabWidget(void) 15
+21:29:42:107 Debug: __cdecl GrabWidget::~GrabWidget(void) 16
+21:29:42:109 Debug: __cdecl GrabWidget::~GrabWidget(void) 17
+21:29:42:112 Debug: __cdecl GrabWidget::~GrabWidget(void) 18
+21:29:42:115 Debug: __cdecl GrabWidget::~GrabWidget(void) 19
+21:29:42:117 Debug: __cdecl GrabWidget::~GrabWidget(void) 20
+21:29:42:119 Debug: __cdecl GrabWidget::~GrabWidget(void) 21
+21:29:42:123 Debug: __cdecl GrabWidget::~GrabWidget(void) 22
+21:29:42:124 Debug: __cdecl GrabWidget::~GrabWidget(void) 23
+21:29:42:127 Debug: __cdecl GrabWidget::~GrabWidget(void) 24
+21:29:42:130 Debug: __cdecl GrabWidget::~GrabWidget(void) 25
+21:29:42:133 Debug: __cdecl GrabWidget::~GrabWidget(void) 26
+21:29:42:136 Debug: __cdecl GrabWidget::~GrabWidget(void) 27
+21:29:42:139 Debug: __cdecl GrabWidget::~GrabWidget(void) 28
+21:29:42:141 Debug: __cdecl GrabWidget::~GrabWidget(void) 29
+21:29:42:144 Debug: __cdecl GrabWidget::~GrabWidget(void) 30
+21:29:42:147 Debug: __cdecl GrabWidget::~GrabWidget(void) 31
+21:29:42:150 Debug: __cdecl GrabWidget::~GrabWidget(void) 32
+21:29:42:152 Debug: __cdecl GrabWidget::~GrabWidget(void) 33
+21:29:42:155 Debug: __cdecl GrabWidget::~GrabWidget(void) 34
+21:29:42:157 Debug: __cdecl GrabWidget::~GrabWidget(void) 35
+21:29:42:160 Debug: __cdecl GrabWidget::~GrabWidget(void) 36
+21:29:42:163 Debug: __cdecl GrabWidget::~GrabWidget(void) 37
+21:29:42:166 Debug: __cdecl GrabWidget::~GrabWidget(void) 38
+21:29:42:168 Debug: __cdecl GrabWidget::~GrabWidget(void) 39
+21:29:42:171 Debug: __cdecl GrabWidget::~GrabWidget(void) 40
+21:29:42:173 Debug: __cdecl GrabWidget::~GrabWidget(void) 41
+21:29:42:175 Debug: __cdecl GrabWidget::~GrabWidget(void) 42
+21:29:42:178 Debug: __cdecl GrabWidget::~GrabWidget(void) 43
+21:29:42:180 Debug: __cdecl GrabWidget::~GrabWidget(void) 44
+21:29:42:182 Debug: __cdecl GrabWidget::~GrabWidget(void) 45
+21:29:42:185 Debug: __cdecl GrabWidget::~GrabWidget(void) 46
+21:29:42:187 Debug: __cdecl GrabWidget::~GrabWidget(void) 47
+21:29:42:189 Debug: __cdecl GrabWidget::~GrabWidget(void) 48
+21:29:42:194 Debug: __cdecl GrabWidget::~GrabWidget(void) 49
+21:29:42:198 Debug: __cdecl GrabWidget::~GrabWidget(void) 50
+21:29:42:201 Debug: __cdecl GrabWidget::~GrabWidget(void) 51
+21:29:42:203 Debug: __cdecl GrabWidget::~GrabWidget(void) 52
+21:29:42:207 Debug: __cdecl GrabWidget::~GrabWidget(void) 53
+21:29:42:208 Debug: __cdecl GrabWidget::~GrabWidget(void) 54
+21:29:42:211 Debug: __cdecl GrabWidget::~GrabWidget(void) 55
+21:29:42:214 Debug: __cdecl GrabWidget::~GrabWidget(void) 56
+21:29:42:216 Debug: __cdecl GrabWidget::~GrabWidget(void) 57
+21:29:42:217 Debug: __cdecl GrabWidget::~GrabWidget(void) 58
+21:29:42:219 Debug: __cdecl GrabWidget::~GrabWidget(void) 59
+21:29:42:221 Debug: __cdecl GrabWidget::~GrabWidget(void) 60
+21:29:42:223 Debug: __cdecl GrabWidget::~GrabWidget(void) 61
+21:29:42:224 Debug: __cdecl GrabWidget::~GrabWidget(void) 62
+21:29:42:226 Debug: __cdecl GrabWidget::~GrabWidget(void) 63
+21:29:42:228 Debug: __cdecl GrabWidget::~GrabWidget(void) 64
+21:29:42:230 Debug: __cdecl GrabWidget::~GrabWidget(void) 65
+21:29:42:232 Debug: __cdecl GrabWidget::~GrabWidget(void) 66
+21:29:42:233 Debug: __cdecl GrabWidget::~GrabWidget(void) 67
+21:29:42:234 Debug: __cdecl GrabWidget::~GrabWidget(void) 68
+21:29:42:236 Debug: __cdecl GrabWidget::~GrabWidget(void) 69
+21:29:42:248 Warning: QWizard::field: No such field 'isLightpack'
+21:29:48:549 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 0
+21:29:48:565 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 1
+21:29:48:578 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 2
+21:29:48:589 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 3
+21:29:48:602 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 4
+21:29:48:614 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 5
+21:29:48:624 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 6
+21:29:48:635 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 7
+21:29:48:646 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 8
+21:29:48:655 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 9
+21:29:48:666 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 10
+21:29:48:678 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 11
+21:29:48:692 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 12
+21:29:48:703 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 13
+21:29:48:717 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 14
+21:29:48:731 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 15
+21:29:48:742 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 16
+21:29:48:750 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 17
+21:29:48:762 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 18
+21:29:48:771 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 19
+21:29:48:780 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 20
+21:29:48:791 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 21
+21:29:48:800 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 22
+21:29:48:810 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 23
+21:29:48:831 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 24
+21:29:48:860 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 25
+21:29:48:877 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 26
+21:29:48:886 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 27
+21:29:48:898 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 28
+21:29:48:909 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 29
+21:29:48:923 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 30
+21:29:48:935 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 31
+21:29:48:952 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 32
+21:29:48:973 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 33
+21:29:48:984 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 34
+21:29:48:996 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 35
+21:29:49:006 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 36
+21:29:49:016 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 37
+21:29:49:026 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 38
+21:29:49:037 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 39
+21:29:49:047 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 40
+21:29:49:058 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 41
+21:29:49:067 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 42
+21:29:49:078 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 43
+21:29:49:091 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 44
+21:29:49:107 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 45
+21:29:49:122 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 46
+21:29:49:134 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 47
+21:29:49:148 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 48
+21:29:49:159 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 49
+21:29:49:168 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 50
+21:29:49:180 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 51
+21:29:49:194 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 52
+21:29:49:204 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 53
+21:29:49:216 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 54
+21:29:49:228 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 55
+21:29:49:237 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 56
+21:29:49:248 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 57
+21:29:49:258 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 58
+21:29:49:271 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 59
+21:29:49:282 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 60
+21:29:49:292 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 61
+21:29:49:304 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 62
+21:29:49:318 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 63
+21:29:49:332 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 64
+21:29:49:349 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 65
+21:29:49:360 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 66
+21:29:49:373 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 67
+21:29:49:386 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 68
+21:29:49:399 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 69
+21:29:50:514 Debug: __cdecl GrabWidget::~GrabWidget(void) 0
+21:29:50:516 Debug: __cdecl GrabWidget::~GrabWidget(void) 1
+21:29:50:518 Debug: __cdecl GrabWidget::~GrabWidget(void) 2
+21:29:50:521 Debug: __cdecl GrabWidget::~GrabWidget(void) 3
+21:29:50:523 Debug: __cdecl GrabWidget::~GrabWidget(void) 4
+21:29:50:524 Debug: __cdecl GrabWidget::~GrabWidget(void) 5
+21:29:50:526 Debug: __cdecl GrabWidget::~GrabWidget(void) 6
+21:29:50:528 Debug: __cdecl GrabWidget::~GrabWidget(void) 7
+21:29:50:529 Debug: __cdecl GrabWidget::~GrabWidget(void) 8
+21:29:50:530 Debug: __cdecl GrabWidget::~GrabWidget(void) 9
+21:29:50:532 Debug: __cdecl GrabWidget::~GrabWidget(void) 10
+21:29:50:533 Debug: __cdecl GrabWidget::~GrabWidget(void) 11
+21:29:50:536 Debug: __cdecl GrabWidget::~GrabWidget(void) 12
+21:29:50:537 Debug: __cdecl GrabWidget::~GrabWidget(void) 13
+21:29:50:539 Debug: __cdecl GrabWidget::~GrabWidget(void) 14
+21:29:50:540 Debug: __cdecl GrabWidget::~GrabWidget(void) 15
+21:29:50:542 Debug: __cdecl GrabWidget::~GrabWidget(void) 16
+21:29:50:544 Debug: __cdecl GrabWidget::~GrabWidget(void) 17
+21:29:50:545 Debug: __cdecl GrabWidget::~GrabWidget(void) 18
+21:29:50:546 Debug: __cdecl GrabWidget::~GrabWidget(void) 19
+21:29:50:548 Debug: __cdecl GrabWidget::~GrabWidget(void) 20
+21:29:50:549 Debug: __cdecl GrabWidget::~GrabWidget(void) 21
+21:29:50:551 Debug: __cdecl GrabWidget::~GrabWidget(void) 22
+21:29:50:553 Debug: __cdecl GrabWidget::~GrabWidget(void) 23
+21:29:50:555 Debug: __cdecl GrabWidget::~GrabWidget(void) 24
+21:29:50:557 Debug: __cdecl GrabWidget::~GrabWidget(void) 25
+21:29:50:559 Debug: __cdecl GrabWidget::~GrabWidget(void) 26
+21:29:50:560 Debug: __cdecl GrabWidget::~GrabWidget(void) 27
+21:29:50:562 Debug: __cdecl GrabWidget::~GrabWidget(void) 28
+21:29:50:563 Debug: __cdecl GrabWidget::~GrabWidget(void) 29
+21:29:50:564 Debug: __cdecl GrabWidget::~GrabWidget(void) 30
+21:29:50:566 Debug: __cdecl GrabWidget::~GrabWidget(void) 31
+21:29:50:568 Debug: __cdecl GrabWidget::~GrabWidget(void) 32
+21:29:50:571 Debug: __cdecl GrabWidget::~GrabWidget(void) 33
+21:29:50:572 Debug: __cdecl GrabWidget::~GrabWidget(void) 34
+21:29:50:573 Debug: __cdecl GrabWidget::~GrabWidget(void) 35
+21:29:50:575 Debug: __cdecl GrabWidget::~GrabWidget(void) 36
+21:29:50:577 Debug: __cdecl GrabWidget::~GrabWidget(void) 37
+21:29:50:579 Debug: __cdecl GrabWidget::~GrabWidget(void) 38
+21:29:50:580 Debug: __cdecl GrabWidget::~GrabWidget(void) 39
+21:29:50:583 Debug: __cdecl GrabWidget::~GrabWidget(void) 40
+21:29:50:584 Debug: __cdecl GrabWidget::~GrabWidget(void) 41
+21:29:50:586 Debug: __cdecl GrabWidget::~GrabWidget(void) 42
+21:29:50:587 Debug: __cdecl GrabWidget::~GrabWidget(void) 43
+21:29:50:589 Debug: __cdecl GrabWidget::~GrabWidget(void) 44
+21:29:50:590 Debug: __cdecl GrabWidget::~GrabWidget(void) 45
+21:29:50:592 Debug: __cdecl GrabWidget::~GrabWidget(void) 46
+21:29:50:593 Debug: __cdecl GrabWidget::~GrabWidget(void) 47
+21:29:50:595 Debug: __cdecl GrabWidget::~GrabWidget(void) 48
+21:29:50:596 Debug: __cdecl GrabWidget::~GrabWidget(void) 49
+21:29:50:599 Debug: __cdecl GrabWidget::~GrabWidget(void) 50
+21:29:50:600 Debug: __cdecl GrabWidget::~GrabWidget(void) 51
+21:29:50:602 Debug: __cdecl GrabWidget::~GrabWidget(void) 52
+21:29:50:604 Debug: __cdecl GrabWidget::~GrabWidget(void) 53
+21:29:50:606 Debug: __cdecl GrabWidget::~GrabWidget(void) 54
+21:29:50:607 Debug: __cdecl GrabWidget::~GrabWidget(void) 55
+21:29:50:608 Debug: __cdecl GrabWidget::~GrabWidget(void) 56
+21:29:50:610 Debug: __cdecl GrabWidget::~GrabWidget(void) 57
+21:29:50:612 Debug: __cdecl GrabWidget::~GrabWidget(void) 58
+21:29:50:614 Debug: __cdecl GrabWidget::~GrabWidget(void) 59
+21:29:50:615 Debug: __cdecl GrabWidget::~GrabWidget(void) 60
+21:29:50:617 Debug: __cdecl GrabWidget::~GrabWidget(void) 61
+21:29:50:619 Debug: __cdecl GrabWidget::~GrabWidget(void) 62
+21:29:50:621 Debug: __cdecl GrabWidget::~GrabWidget(void) 63
+21:29:50:622 Debug: __cdecl GrabWidget::~GrabWidget(void) 64
+21:29:50:623 Debug: __cdecl GrabWidget::~GrabWidget(void) 65
+21:29:50:625 Debug: __cdecl GrabWidget::~GrabWidget(void) 66
+21:29:50:626 Debug: __cdecl GrabWidget::~GrabWidget(void) 67
+21:29:50:628 Debug: __cdecl GrabWidget::~GrabWidget(void) 68
+21:29:50:630 Debug: __cdecl GrabWidget::~GrabWidget(void) 69
+21:29:50:640 Warning: QWizard::field: No such field 'isLightpack'
+21:29:51:443 Warning: QWizard::field: No such field 'isLightpack'
+21:29:51:443 Debug: void __cdecl SettingsScope::Settings::setDeviceLedMilliAmps(const enum SupportedDevices::DeviceType,const int)
+21:29:51:444 Debug: void __cdecl SettingsScope::Settings::setDevicePowerSupplyAmps(const enum SupportedDevices::DeviceType,const double)
+21:29:51:444 Debug: void __cdecl GlobalColorCoefPage::initializePage(void)
+21:29:51:502 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 0
+21:29:51:519 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 1
+21:29:51:529 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 2
+21:29:51:543 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 3
+21:29:51:557 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 4
+21:29:51:571 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 5
+21:29:51:581 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 6
+21:29:51:594 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 7
+21:29:51:605 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 8
+21:29:51:615 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 9
+21:29:51:625 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 10
+21:29:51:640 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 11
+21:29:51:657 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 12
+21:29:51:673 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 13
+21:29:51:686 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 14
+21:29:51:700 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 15
+21:29:51:714 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 16
+21:29:51:724 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 17
+21:29:51:733 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 18
+21:29:51:746 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 19
+21:29:51:758 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 20
+21:29:51:771 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 21
+21:29:51:789 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 22
+21:29:51:802 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 23
+21:29:51:814 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 24
+21:29:51:824 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 25
+21:29:51:837 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 26
+21:29:51:847 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 27
+21:29:51:860 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 28
+21:29:51:872 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 29
+21:29:51:886 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 30
+21:29:51:901 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 31
+21:29:51:912 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 32
+21:29:51:922 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 33
+21:29:51:931 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 34
+21:29:51:941 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 35
+21:29:51:951 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 36
+21:29:51:965 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 37
+21:29:51:980 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 38
+21:29:51:991 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 39
+21:29:52:000 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 40
+21:29:52:013 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 41
+21:29:52:023 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 42
+21:29:52:033 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 43
+21:29:52:045 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 44
+21:29:52:057 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 45
+21:29:52:068 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 46
+21:29:52:080 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 47
+21:29:52:096 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 48
+21:29:52:114 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 49
+21:29:52:126 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 50
+21:29:52:137 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 51
+21:29:52:148 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 52
+21:29:52:161 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 53
+21:29:52:174 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 54
+21:29:52:186 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 55
+21:29:52:197 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 56
+21:29:52:210 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 57
+21:29:52:222 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 58
+21:29:52:232 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 59
+21:29:52:245 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 60
+21:29:52:260 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 61
+21:29:52:271 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 62
+21:29:52:281 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 63
+21:29:52:293 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 64
+21:29:52:306 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 65
+21:29:52:316 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 66
+21:29:52:329 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 67
+21:29:52:342 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 68
+21:29:52:353 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 69
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setAdalightSerialPortName(const class QString &)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setAdalightSerialPortBaudRate(const class QString &)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setColorSequence(enum SupportedDevices::DeviceType,const class QString &) 2 "RGB"
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setColorSequence(enum SupportedDevices::DeviceType,const class QString &) ada "RGB"
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setConnectedDevice(enum SupportedDevices::DeviceType)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setNumberOfLeds(enum SupportedDevices::DeviceType,int)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:307 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:308 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedPosition(int,class QPoint)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedSize(int,class QSize)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedEnabled(int,bool)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:309 Debug: void __cdecl SettingsScope::Settings::setLedCoefBlue(int,double)
+21:29:59:320 Debug: __cdecl GrabWidget::~GrabWidget(void) 0
+21:29:59:326 Debug: __cdecl GrabWidget::~GrabWidget(void) 1
+21:29:59:330 Debug: __cdecl GrabWidget::~GrabWidget(void) 2
+21:29:59:333 Debug: __cdecl GrabWidget::~GrabWidget(void) 3
+21:29:59:336 Debug: __cdecl GrabWidget::~GrabWidget(void) 4
+21:29:59:339 Debug: __cdecl GrabWidget::~GrabWidget(void) 5
+21:29:59:342 Debug: __cdecl GrabWidget::~GrabWidget(void) 6
+21:29:59:344 Debug: __cdecl GrabWidget::~GrabWidget(void) 7
+21:29:59:346 Debug: __cdecl GrabWidget::~GrabWidget(void) 8
+21:29:59:348 Debug: __cdecl GrabWidget::~GrabWidget(void) 9
+21:29:59:349 Debug: __cdecl GrabWidget::~GrabWidget(void) 10
+21:29:59:351 Debug: __cdecl GrabWidget::~GrabWidget(void) 11
+21:29:59:354 Debug: __cdecl GrabWidget::~GrabWidget(void) 12
+21:29:59:356 Debug: __cdecl GrabWidget::~GrabWidget(void) 13
+21:29:59:358 Debug: __cdecl GrabWidget::~GrabWidget(void) 14
+21:29:59:359 Debug: __cdecl GrabWidget::~GrabWidget(void) 15
+21:29:59:361 Debug: __cdecl GrabWidget::~GrabWidget(void) 16
+21:29:59:362 Debug: __cdecl GrabWidget::~GrabWidget(void) 17
+21:29:59:365 Debug: __cdecl GrabWidget::~GrabWidget(void) 18
+21:29:59:366 Debug: __cdecl GrabWidget::~GrabWidget(void) 19
+21:29:59:369 Debug: __cdecl GrabWidget::~GrabWidget(void) 20
+21:29:59:371 Debug: __cdecl GrabWidget::~GrabWidget(void) 21
+21:29:59:373 Debug: __cdecl GrabWidget::~GrabWidget(void) 22
+21:29:59:375 Debug: __cdecl GrabWidget::~GrabWidget(void) 23
+21:29:59:377 Debug: __cdecl GrabWidget::~GrabWidget(void) 24
+21:29:59:379 Debug: __cdecl GrabWidget::~GrabWidget(void) 25
+21:29:59:382 Debug: __cdecl GrabWidget::~GrabWidget(void) 26
+21:29:59:384 Debug: __cdecl GrabWidget::~GrabWidget(void) 27
+21:29:59:387 Debug: __cdecl GrabWidget::~GrabWidget(void) 28
+21:29:59:389 Debug: __cdecl GrabWidget::~GrabWidget(void) 29
+21:29:59:391 Debug: __cdecl GrabWidget::~GrabWidget(void) 30
+21:29:59:393 Debug: __cdecl GrabWidget::~GrabWidget(void) 31
+21:29:59:396 Debug: __cdecl GrabWidget::~GrabWidget(void) 32
+21:29:59:398 Debug: __cdecl GrabWidget::~GrabWidget(void) 33
+21:29:59:400 Debug: __cdecl GrabWidget::~GrabWidget(void) 34
+21:29:59:401 Debug: __cdecl GrabWidget::~GrabWidget(void) 35
+21:29:59:403 Debug: __cdecl GrabWidget::~GrabWidget(void) 36
+21:29:59:405 Debug: __cdecl GrabWidget::~GrabWidget(void) 37
+21:29:59:407 Debug: __cdecl GrabWidget::~GrabWidget(void) 38
+21:29:59:410 Debug: __cdecl GrabWidget::~GrabWidget(void) 39
+21:29:59:412 Debug: __cdecl GrabWidget::~GrabWidget(void) 40
+21:29:59:415 Debug: __cdecl GrabWidget::~GrabWidget(void) 41
+21:29:59:418 Debug: __cdecl GrabWidget::~GrabWidget(void) 42
+21:29:59:421 Debug: __cdecl GrabWidget::~GrabWidget(void) 43
+21:29:59:423 Debug: __cdecl GrabWidget::~GrabWidget(void) 44
+21:29:59:425 Debug: __cdecl GrabWidget::~GrabWidget(void) 45
+21:29:59:428 Debug: __cdecl GrabWidget::~GrabWidget(void) 46
+21:29:59:430 Debug: __cdecl GrabWidget::~GrabWidget(void) 47
+21:29:59:432 Debug: __cdecl GrabWidget::~GrabWidget(void) 48
+21:29:59:435 Debug: __cdecl GrabWidget::~GrabWidget(void) 49
+21:29:59:438 Debug: __cdecl GrabWidget::~GrabWidget(void) 50
+21:29:59:443 Debug: __cdecl GrabWidget::~GrabWidget(void) 51
+21:29:59:447 Debug: __cdecl GrabWidget::~GrabWidget(void) 52
+21:29:59:450 Debug: __cdecl GrabWidget::~GrabWidget(void) 53
+21:29:59:454 Debug: __cdecl GrabWidget::~GrabWidget(void) 54
+21:29:59:459 Debug: __cdecl GrabWidget::~GrabWidget(void) 55
+21:29:59:463 Debug: __cdecl GrabWidget::~GrabWidget(void) 56
+21:29:59:467 Debug: __cdecl GrabWidget::~GrabWidget(void) 57
+21:29:59:469 Debug: __cdecl GrabWidget::~GrabWidget(void) 58
+21:29:59:474 Debug: __cdecl GrabWidget::~GrabWidget(void) 59
+21:29:59:476 Debug: __cdecl GrabWidget::~GrabWidget(void) 60
+21:29:59:479 Debug: __cdecl GrabWidget::~GrabWidget(void) 61
+21:29:59:482 Debug: __cdecl GrabWidget::~GrabWidget(void) 62
+21:29:59:485 Debug: __cdecl GrabWidget::~GrabWidget(void) 63
+21:29:59:488 Debug: __cdecl GrabWidget::~GrabWidget(void) 64
+21:29:59:489 Debug: __cdecl GrabWidget::~GrabWidget(void) 65
+21:29:59:492 Debug: __cdecl GrabWidget::~GrabWidget(void) 66
+21:29:59:494 Debug: __cdecl GrabWidget::~GrabWidget(void) 67
+21:29:59:496 Debug: __cdecl GrabWidget::~GrabWidget(void) 68
+21:29:59:500 Debug: __cdecl GrabWidget::~GrabWidget(void) 69
+21:29:59:532 Debug: Prismatik: 5.11.2.31 rev. 5044e21
+21:29:59:533 Debug: Build with Qt verison: 5.15.2
+21:29:59:533 Debug: Qt version currently in use: 5.15.2
+21:29:59:533 Debug: Running on: "Windows 10 Version 2009"
+21:29:59:533 Debug: App is running as Admin
+21:29:59:533 Debug: bool __cdecl SettingsScope::Settings::Initialize(const class QString &,bool)
+21:29:59:533 Debug: __cdecl SettingsWindow::SettingsWindow(class QWidget *) thread id:  0x5824
+21:29:59:877 Debug: void __cdecl SettingsWindow::initLanguages(void)
+21:29:59:877 Debug: void __cdecl SettingsWindow::loadTranslation(const class QString &) "<System>"
+21:29:59:877 Debug: System locale "en_IN"
+21:29:59:877 Debug: System translation "en_EN"
+21:29:59:877 Debug: void __cdecl SettingsScope::Settings::setLanguage(const class QString &)
+21:29:59:877 Debug: Translation removed, using default locale "en_EN"
+21:29:59:913 Debug: __cdecl SettingsWindow::SettingsWindow(class QWidget *) initialized
+21:29:59:913 Debug: void __cdecl SettingsWindow::createTrayIcon(void)
+21:29:59:918 Debug: void __cdecl SysTrayIcon::createActions(void)
+21:29:59:920 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:29:59:971 Debug: void __cdecl SettingsWindow::connectSignalsSlots(void)
+21:29:59:971 Debug: void __cdecl LightpackApplication::startLedDeviceManager(void)
+21:29:59:971 Debug: void __cdecl LightpackPluginInterface::initColors(int) 10
+21:29:59:971 Debug: void __cdecl LightpackApplication::startLedDeviceManager(void) end
+21:29:59:971 Debug: void __cdecl LightpackApplication::startApiServer(void) Start API server
+21:29:59:972 Debug: void __cdecl ApiServerSetColorTask::setApiDeviceNumberOfLeds(int) 70
+21:29:59:972 Debug: void __cdecl ApiServer::setInterface(class LightpackPluginInterface *) "2.2"
+21:29:59:972 Debug: void __cdecl LightpackApplication::initGrabManager(void)
+21:29:59:972 Debug: __cdecl GrabManager::GrabManager(class QWidget *)
+21:29:59:972 Debug: void __cdecl GrabManager::initGrabbers(void)
+21:29:59:972 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:29:59:972 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:29:59:972 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:29:59:972 Debug: enum Grab::GrabberType __cdecl SettingsScope::Settings::getGrabberType(void)
+21:29:59:972 Debug: class GrabberBase *__cdecl GrabManager::queryGrabber(enum Grab::GrabberType) grabberType: 8
+21:29:59:972 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:29:59:972 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:29:59:972 Debug: void __cdecl GrabManager::initColorLists(int) 10
+21:29:59:972 Debug: void __cdecl GrabManager::initLedWidgets(int) 10
+21:29:59:972 Debug: void __cdecl GrabManager::initLedWidgets(int) First widget initialization
+21:29:59:972 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 0
+21:29:59:977 Debug: void __cdecl LedDeviceManager::initLedDevice(void)
+21:29:59:977 Debug: class AbstractLedDevice *__cdecl LedDeviceManager::createLedDevice(enum SupportedDevices::DeviceType) SupportedDevices::AdalightDevice
+21:29:59:977 Debug: __cdecl LedDeviceAdalight::LedDeviceAdalight(const class QString &,const int,class QObject *)
+21:29:59:977 Debug: __cdecl LedDeviceAdalight::LedDeviceAdalight(const class QString &,const int,class QObject *) initialized
+21:29:59:978 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 0
+21:29:59:978 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:979 Debug: void __cdecl GrabManager::initLedWidgets(int) Append 9 grab widgets
+21:29:59:979 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 1
+21:29:59:980 Debug: void __cdecl LedDeviceAdalight::open(void) LedDeviceManager(0x21b9c0f8690)
+21:29:59:981 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 1
+21:29:59:981 Debug: void __cdecl LedDeviceAdalight::open(void) Serial device "COM9" open
+21:29:59:982 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:982 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 2
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::open(void) Baud rate	: 115200
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::open(void) Data bits	: QSerialPort::Data8
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::open(void) Parity		: QSerialPort::NoParity
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::open(void) Stop bits	: QSerialPort::OneStop
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::open(void) Flow			: QSerialPort::NoFlowControl
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::updateDeviceSettings(void)
+21:29:59:983 Debug: void __cdecl LedDeviceAdalight::setColorSequence(const class QString &) "RGB"
+21:29:59:985 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 2
+21:29:59:985 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:985 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 3
+21:29:59:987 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 3
+21:29:59:987 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:987 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 4
+21:29:59:989 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 4
+21:29:59:989 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:989 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 5
+21:29:59:992 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 5
+21:29:59:993 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:993 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 6
+21:29:59:994 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 6
+21:29:59:994 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:994 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 7
+21:29:59:996 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 7
+21:29:59:996 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:29:59:997 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 8
+21:30:00:000 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 8
+21:30:00:000 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:000 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 9
+21:30:00:005 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 9
+21:30:00:005 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:006 Debug: void __cdecl GrabManager::updateScreenGeometry(void)
+21:30:00:006 Debug: void __cdecl GrabManager::settingsProfileChanged(const class QString &)
+21:30:00:006 Debug: void __cdecl GrabManager::setNumberOfLeds(int) 70
+21:30:00:006 Debug: void __cdecl GrabManager::initColorLists(int) 70
+21:30:00:006 Debug: void __cdecl GrabManager::initLedWidgets(int) 70
+21:30:00:006 Debug: void __cdecl GrabManager::initLedWidgets(int) Append 60 grab widgets
+21:30:00:006 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 10
+21:30:00:009 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 10
+21:30:00:010 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:010 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 11
+21:30:00:012 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 11
+21:30:00:012 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:012 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 12
+21:30:00:014 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 12
+21:30:00:015 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:015 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 13
+21:30:00:018 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 13
+21:30:00:019 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:019 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 14
+21:30:00:021 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 14
+21:30:00:022 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:022 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 15
+21:30:00:024 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 15
+21:30:00:025 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:025 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 16
+21:30:00:027 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 16
+21:30:00:028 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:028 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 17
+21:30:00:030 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 17
+21:30:00:030 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:030 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 18
+21:30:00:032 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 18
+21:30:00:033 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:033 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 19
+21:30:00:035 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 19
+21:30:00:035 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:035 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 20
+21:30:00:038 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 20
+21:30:00:038 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:038 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 21
+21:30:00:041 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 21
+21:30:00:041 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:041 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 22
+21:30:00:044 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 22
+21:30:00:044 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:044 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 23
+21:30:00:046 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 23
+21:30:00:047 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:047 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 24
+21:30:00:049 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 24
+21:30:00:050 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:050 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 25
+21:30:00:052 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 25
+21:30:00:052 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:052 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 26
+21:30:00:054 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 26
+21:30:00:054 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:055 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 27
+21:30:00:057 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 27
+21:30:00:058 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:058 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 28
+21:30:00:061 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 28
+21:30:00:061 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:061 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 29
+21:30:00:063 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 29
+21:30:00:063 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:064 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 30
+21:30:00:067 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 30
+21:30:00:067 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:067 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 31
+21:30:00:071 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 31
+21:30:00:071 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:071 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 32
+21:30:00:074 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 32
+21:30:00:074 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:074 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 33
+21:30:00:077 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 33
+21:30:00:077 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:078 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 34
+21:30:00:081 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 34
+21:30:00:081 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:081 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 35
+21:30:00:085 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 35
+21:30:00:085 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:085 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 36
+21:30:00:089 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 36
+21:30:00:089 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:089 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 37
+21:30:00:093 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 37
+21:30:00:093 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:094 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 38
+21:30:00:097 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 38
+21:30:00:098 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:098 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 39
+21:30:00:101 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 39
+21:30:00:101 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:102 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 40
+21:30:00:106 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 40
+21:30:00:106 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:106 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 41
+21:30:00:108 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 41
+21:30:00:108 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:109 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 42
+21:30:00:112 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 42
+21:30:00:112 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:112 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 43
+21:30:00:115 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 43
+21:30:00:116 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:116 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 44
+21:30:00:118 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 44
+21:30:00:118 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:118 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 45
+21:30:00:120 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 45
+21:30:00:121 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:121 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 46
+21:30:00:125 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 46
+21:30:00:125 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:125 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 47
+21:30:00:128 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 47
+21:30:00:129 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:129 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 48
+21:30:00:132 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 48
+21:30:00:132 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:132 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 49
+21:30:00:135 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 49
+21:30:00:136 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:136 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 50
+21:30:00:138 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 50
+21:30:00:138 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:138 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 51
+21:30:00:140 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 51
+21:30:00:141 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:141 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 52
+21:30:00:145 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 52
+21:30:00:145 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:145 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 53
+21:30:00:148 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 53
+21:30:00:149 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:149 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 54
+21:30:00:151 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 54
+21:30:00:152 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:152 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 55
+21:30:00:154 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 55
+21:30:00:154 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:154 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 56
+21:30:00:156 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 56
+21:30:00:156 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:157 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 57
+21:30:00:159 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 57
+21:30:00:159 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:159 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 58
+21:30:00:161 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 58
+21:30:00:162 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:162 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 59
+21:30:00:164 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 59
+21:30:00:164 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:164 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 60
+21:30:00:166 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 60
+21:30:00:167 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:167 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 61
+21:30:00:169 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 61
+21:30:00:169 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:169 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 62
+21:30:00:171 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 62
+21:30:00:171 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:171 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 63
+21:30:00:175 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 63
+21:30:00:175 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:175 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 64
+21:30:00:179 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 64
+21:30:00:179 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:180 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 65
+21:30:00:182 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 65
+21:30:00:182 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:182 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 66
+21:30:00:185 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 66
+21:30:00:185 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:185 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 67
+21:30:00:187 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 67
+21:30:00:187 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:187 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 68
+21:30:00:189 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 68
+21:30:00:189 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:189 Debug: __cdecl GrabWidget::GrabWidget(int,int,class QList<class GrabWidget *> *,class QWidget *) 69
+21:30:00:192 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 69
+21:30:00:192 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 0
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 1
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 2
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 3
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 4
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 5
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 6
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 7
+21:30:00:193 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 8
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 9
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 10
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 11
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 12
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 13
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 14
+21:30:00:194 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 15
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 16
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 17
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 18
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 19
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 20
+21:30:00:195 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 21
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 22
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 23
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 24
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 25
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 26
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 27
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 28
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 29
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 30
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 31
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 32
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 33
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 34
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 35
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 36
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 37
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 38
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 39
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 40
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 41
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 42
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 43
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 44
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 45
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 46
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 47
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 48
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 49
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 50
+21:30:00:196 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 51
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 52
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 53
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 54
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 55
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 56
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 57
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 58
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 59
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 60
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 61
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 62
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 63
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 64
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 65
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 66
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 67
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 68
+21:30:00:197 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 69
+21:30:00:197 Debug: __cdecl GrabManager::GrabManager(class QWidget *) initialized
+21:30:00:197 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:30:00:197 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:197 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:30:00:197 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:197 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:30:00:197 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:197 Debug: void __cdecl MoodLampManager::initColors(int) 70
+21:30:00:197 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:30:00:197 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:30:00:197 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:197 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:30:00:197 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:197 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:30:00:197 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:197 Debug: void __cdecl MoodLampManager::initColors(int) 70
+21:30:00:197 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:30:00:208 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMinColor(void)
+21:30:00:208 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMaxColor(void)
+21:30:00:208 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:30:00:208 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:208 Debug: int __cdecl SettingsScope::Settings::getSoundVisualizerLiquidSpeed(void)
+21:30:00:208 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:208 Debug: void __cdecl SoundManagerBase::initColors(int) 70
+21:30:00:208 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:208 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMinColor(void)
+21:30:00:208 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMaxColor(void)
+21:30:00:208 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:30:00:208 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:208 Debug: int __cdecl SettingsScope::Settings::getSoundVisualizerLiquidSpeed(void)
+21:30:00:208 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:208 Debug: void __cdecl SoundManagerBase::initColors(int) 70
+21:30:00:208 Debug: void __cdecl SettingsWindow::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:30:00:212 Debug: void __cdecl LightpackApplication::settingsChanged(void)
+21:30:00:212 Debug: void __cdecl LightpackPluginInterface::changeProfile(const class QString &) "monitor1"
+21:30:00:212 Debug: void __cdecl GrabManager::onSendDataOnlyIfColorsEnabledChanged(bool) true
+21:30:00:212 Debug: void __cdecl MoodLampManager::setSendDataOnlyIfColorsChanged(bool) true
+21:30:00:212 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:30:00:212 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:30:00:212 Debug: void __cdecl MoodLampManager::setLiquidModeSpeed(int) 60
+21:30:00:212 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:212 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:212 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:30:00:212 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:212 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:30:00:212 Debug: void __cdecl SoundManagerBase::setSendDataOnlyIfColorsChanged(bool) true
+21:30:00:212 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:30:00:212 Debug: void __cdecl GrabManager::start(bool) false
+21:30:00:212 Debug: void __cdecl GrabberBase::stopGrabbing(void) DDuplGrabber
+21:30:00:213 Debug: void __cdecl MoodLampManager::start(bool) false
+21:30:00:213 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:213 Debug: void __cdecl WindowsSoundManager::start(bool) true
+21:30:00:823 Debug: void __cdecl LiquidColorGenerator::start(void)
+21:30:00:823 Debug: void __cdecl SoundManagerBase::initColors(int) 70
+21:30:00:823 Debug: void __cdecl LightpackApplication::startPluginManager(void)
+21:30:00:823 Debug: class QString __cdecl SettingsScope::Settings::getApplicationDirPath(void) "C:/Users/ASHIL_RVD/Prismatik/"
+21:30:00:823 Debug: void __cdecl PluginsManager::LoadPlugins(const class QString &) "C:/Users/ASHIL_RVD/Prismatik/Plugins"
+21:30:00:824 Debug: void __cdecl PluginsManager::StartPlugins(void)
+21:30:00:832 Debug: void __cdecl SettingsWindow::updateUiFromSettings(void)
+21:30:00:832 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:30:00:832 Debug: void __cdecl SettingsWindow::profilesLoadAll(void) found profiles: ("Ambilight", "AMBILIGHT2", "monitor1", "New profile 2")
+21:30:00:834 Debug: void __cdecl SettingsWindow::profileSwitch(const class QString &) "monitor1"
+21:30:00:834 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:30:00:835 Debug: void __cdecl SettingsWindow::profilesLoadAll(void) found profiles: ("Ambilight", "AMBILIGHT2", "monitor1", "New profile 2")
+21:30:00:835 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:30:00:840 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:30:00:840 Debug: void __cdecl SettingsWindow::onLightpackModeChanged(enum Lightpack::Mode) 2 0
+21:30:00:841 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:30:00:841 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:30:00:845 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:30:00:845 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:30:00:845 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:30:00:845 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:30:00:845 Debug: void __cdecl GrabManager::start(bool) false
+21:30:00:845 Debug: void __cdecl GrabberBase::stopGrabbing(void) DDuplGrabber
+21:30:00:845 Debug: void __cdecl MoodLampManager::start(bool) false
+21:30:00:845 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:845 Debug: void __cdecl WindowsSoundManager::start(bool) true
+21:30:00:845 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:30:00:845 Debug: void __cdecl SettingsScope::Settings::setKeepLightsOnAfterExit(bool)
+21:30:00:845 Debug: void __cdecl SettingsScope::Settings::setKeepLightsOnAfterLock(bool)
+21:30:00:846 Debug: void __cdecl SettingsScope::Settings::setKeepLightsOnAfterSuspend(bool)
+21:30:00:846 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) true
+21:30:00:846 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:30:00:846 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:30:00:846 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 1
+21:30:00:846 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 10
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onGrabApplyBlueLightReduction_toggled(bool) true
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setGrabApplyBlueLightReductionEnabled(bool)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onSliderGrabGamma_valueChanged(int) 120
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setGrabGamma(double)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 10
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) false
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) true
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:30:00:847 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:847 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:847 Debug: void __cdecl SettingsWindow::onMoodLampLiquidMode_Toggled(bool) true
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setMoodLampLiquidMode(bool)
+21:30:00:847 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:30:00:847 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:847 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:847 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:30:00:847 Debug: void __cdecl SettingsScope::Settings::setMoodLampColor(class QColor) "#aa0000"
+21:30:00:847 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:30:00:848 Debug: void __cdecl SettingsWindow::onMoodLampSpeed_valueChanged(int) 60
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setMoodLampSpeed(int)
+21:30:00:848 Debug: void __cdecl MoodLampManager::setLiquidModeSpeed(int) 60
+21:30:00:848 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:848 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMinColor(void)
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerMinColor(class QColor) "#301000"
+21:30:00:848 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMaxColor(void)
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerMaxColor(class QColor) "#0000ff"
+21:30:00:848 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:30:00:848 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerLiquidMode(bool)
+21:30:00:848 Debug: void __cdecl SoundManagerBase::setLiquidMode(bool) true
+21:30:00:848 Debug: void __cdecl LiquidColorGenerator::start(void)
+21:30:00:848 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:30:00:848 Debug: int __cdecl SettingsScope::Settings::getSoundVisualizerLiquidSpeed(void)
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerLiquidSpeed(int)
+21:30:00:848 Debug: void __cdecl SoundManagerBase::setLiquidModeSpeed(int) 60
+21:30:00:848 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:30:00:848 Debug: void __cdecl SettingsWindow::onDeviceRefreshDelay_valueChanged(int) 100
+21:30:00:848 Debug: void __cdecl SettingsScope::Settings::setDeviceRefreshDelay(int)
+21:30:00:849 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 44
+21:30:00:849 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:30:00:849 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 47
+21:30:00:849 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:00:849 Debug: void __cdecl SettingsWindow::onDeviceColorDepth_valueChanged(int) 128
+21:30:00:849 Debug: void __cdecl SettingsScope::Settings::setDeviceColorDepth(int)
+21:30:00:850 Debug: void __cdecl SettingsWindow::onDeviceGammaCorrection_valueChanged(double) 1
+21:30:00:850 Debug: void __cdecl SettingsScope::Settings::setDeviceGamma(double)
+21:30:00:850 Debug: void __cdecl SettingsWindow::onSliderDeviceGammaCorrection_valueChanged(int) 100
+21:30:00:850 Debug: void __cdecl SettingsScope::Settings::setDeviceGamma(double)
+21:30:00:850 Debug: void __cdecl SettingsWindow::onDeviceDitheringEnabled_toggled(bool) true
+21:30:00:850 Debug: void __cdecl SettingsScope::Settings::setDeviceDitheringEnabled(bool)
+21:30:00:850 Debug: void __cdecl SettingsWindow::onEnableApi_Toggled(bool) false
+21:30:00:850 Debug: void __cdecl SettingsScope::Settings::setIsApiEnabled(bool)
+21:30:00:851 Debug: void __cdecl SettingsWindow::onListenOnlyOnLoInterface_Toggled(bool) true
+21:30:00:851 Debug: void __cdecl SettingsScope::Settings::setListenOnlyOnLoInterface(bool)
+21:30:00:851 Debug: void __cdecl ApiServer::apiServerSettingsChanged(void)
+21:30:00:852 Debug: void __cdecl ApiServer::stopListening(void)
+21:30:00:852 Debug: void __cdecl ApiServer::apiServerSettingsChanged(void)
+21:30:00:852 Debug: void __cdecl ApiServer::stopListening(void)
+21:30:00:852 Debug: void __cdecl SettingsWindow::onLoggingLevel_valueChanged(int) 1
+21:30:00:852 Debug: void __cdecl SettingsScope::Settings::setDebugLevel(int)
+21:30:00:853 Debug: enum Grab::GrabberType __cdecl SettingsScope::Settings::getGrabberType(void)
+21:30:00:853 Debug: void __cdecl SettingsWindow::onMoodLampLiquidMode_Toggled(bool) true
+21:30:00:853 Debug: void __cdecl SettingsScope::Settings::setMoodLampLiquidMode(bool)
+21:30:00:853 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:30:00:853 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:00:853 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:30:00:853 Debug: void __cdecl SettingsWindow::updateDeviceTabWidgetsVisibility(void)
+21:30:00:853 Debug: void __cdecl SettingsWindow::setDeviceTabWidgetsVisibility(enum DeviceTab::Options) 63
+21:30:00:853 Debug: void __cdecl SettingsWindow::settingsProfileChanged_UpdateUI(const class QString &)
+21:30:00:853 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:30:00:860 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:30:05:571 Debug: Rename log:  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.3.log"  to  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.4.log"
+21:30:05:572 Debug: Rename log:  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.2.log"  to  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.3.log"
+21:30:05:573 Debug: Rename log:  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.1.log"  to  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.2.log"
+21:30:05:573 Debug: Rename log:  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.0.log"  to  "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.1.log"
+21:30:05:576 Debug: Logs file: "C:/Users/ASHIL_RVD/Prismatik/Logs/Prismatik.0.log"
+21:30:05:576 Debug: int __cdecl main(int,char **) thread id:  0x5824
+21:30:05:576 Debug: Start main event loop: lightpackApp.exec();
+21:30:05:625 Debug: void __cdecl GrabberBase::setGrabInterval(int) WinAPIGrabber
+21:30:05:625 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:05:625 Debug: void __cdecl D3D10Grabber::setGrabInterval(int) D3D10Grabber
+21:30:05:625 Debug: void __cdecl SettingsWindow::ledDeviceOpenSuccess(bool) true
+21:30:05:634 Debug: void __cdecl SettingsWindow::updatePlugin(const class QList<class Plugin *> &)
+21:30:05:634 Debug: void __cdecl LightpackPluginInterface::updatePlugin(const class QList<class Plugin *> &)
+21:30:05:634 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) true
+21:30:05:634 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 1
+21:30:05:634 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:05:634 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 10
+21:30:05:634 Debug: void __cdecl GrabManager::onGrabApplyBlueLightReductionChanged(bool) true
+21:30:05:635 Debug: void __cdecl GrabManager::onGrabGammaChanged(double) 1.2
+21:30:05:636 Debug: void __cdecl SettingsWindow::ledDeviceFirmwareVersionResult(const class QString &) "unknown (adalight device)"
+21:30:05:636 Debug: void __cdecl SettingsWindow::setFirmwareVersion(const class QString &)
+21:30:05:636 Debug: void __cdecl SettingsWindow::versionsUpdate(void)
+21:30:05:636 Debug: void __cdecl SettingsWindow::updateDeviceTabWidgetsVisibility(void)
+21:30:05:637 Debug: void __cdecl SettingsWindow::setDeviceTabWidgetsVisibility(enum DeviceTab::Options) 63
+21:30:05:637 Debug: bool __cdecl SystemSession::WindowsEventFilter::nativeEventFilter(const class QByteArray &,void *,long *) Power settings changed
+21:30:05:637 Debug: bool __cdecl SystemSession::WindowsEventFilter::nativeEventFilter(const class QByteArray &,void *,long *) Display is on
+21:30:05:675 Debug: void __cdecl SysTrayIcon::onTrayIcon_Activated(enum QSystemTrayIcon::ActivationReason)
+21:30:06:663 Debug: void __cdecl SettingsWindow::showSettings(void)
+21:30:06:711 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:06:711 Debug: void __cdecl SettingsWindow::onFocus(void)
+21:30:08:561 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:08:724 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:09:257 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:09:261 Debug: void __cdecl SettingsWindow::onLightpackModes_currentIndexChanged(int) 0 QComboBox(0x21b9d9a3a80, name = "comboBox_LightpackModes")
+21:30:09:261 Debug: void __cdecl SettingsScope::Settings::setLightpackMode(enum Lightpack::Mode) 0
+21:30:09:261 Debug: void __cdecl SettingsWindow::onLightpackModeChanged(enum Lightpack::Mode) 0 0
+21:30:09:262 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:30:09:262 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:30:09:265 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:30:09:266 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:30:09:266 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:30:09:266 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:30:09:266 Debug: void __cdecl GrabManager::start(bool) true
+21:30:09:266 Debug: void __cdecl GrabberBase::startGrabbing(void) DDuplGrabber
+21:30:09:266 Debug: void __cdecl MoodLampManager::start(bool) false
+21:30:09:266 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:09:266 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:30:09:268 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:30:09:269 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:30:09:312 Debug: bool __cdecl DDuplGrabber::recreateAdapters(void) Found Adapter:  "NVIDIA GeForce GTX 1650"
+21:30:09:312 Debug: bool __cdecl DDuplGrabber::recreateAdapters(void) Found Adapter:  "Intel(R) UHD Graphics 630"
+21:30:09:312 Debug: bool __cdecl DDuplGrabber::recreateAdapters(void) Found Adapter:  "Microsoft Basic Render Driver"
+21:30:09:597 Debug: void __cdecl GrabberBase::grab(void) reallocating
+21:30:09:681 Critical: bool __cdecl DDuplGrabber::_reallocate(const class QList<struct ScreenInfo> &,bool) Desktop Duplication not available on this system / in this configuration (desktop 0x290A77, 0x887A0004)
+21:30:09:695 Critical: void __cdecl GrabberBase::grab(void)  couldn't reallocate grabbing buffer
+21:30:10:369 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) null
+21:30:10:370 Debug: void __cdecl SettingsWindow::onBlur(void)
+21:30:10:370 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:30:10:370 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:30:13:897 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:13:897 Debug: void __cdecl SettingsWindow::onFocus(void)
+21:30:16:445 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) null
+21:30:16:445 Debug: void __cdecl SettingsWindow::onBlur(void)
+21:30:16:445 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:30:16:445 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:30:18:557 Debug: void __cdecl `anonymous-namespace'::D3D10GrabberInjector::infectCleanDxProcesses(void) Infecting DX process  14928
+21:30:18:561 Debug: void __cdecl `anonymous-namespace'::D3D10GrabberInjector::infectCleanDxProcesses(void) Infecting DX process  27440
+21:30:24:104 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:24:104 Debug: void __cdecl SettingsWindow::onFocus(void)
+21:30:24:108 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:24:111 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 2
+21:30:24:111 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:24:176 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 2
+21:30:24:176 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:24:281 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 3
+21:30:24:281 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:24:323 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 3
+21:30:24:323 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:24:465 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 4
+21:30:24:465 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:24:506 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 4
+21:30:24:506 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:24:658 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 5
+21:30:24:658 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:24:696 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 5
+21:30:24:696 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:24:825 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 6
+21:30:24:825 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:24:876 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 6
+21:30:24:876 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:26:122 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 5
+21:30:26:122 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:26:171 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 5
+21:30:26:171 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:26:289 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 4
+21:30:26:289 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:26:329 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 4
+21:30:26:329 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:26:489 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 3
+21:30:26:489 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:26:533 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 3
+21:30:26:533 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:27:027 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 2
+21:30:27:027 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:27:071 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 2
+21:30:27:071 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:27:570 Debug: void __cdecl SettingsWindow::onGrabSlowdown_valueChanged(int) 1
+21:30:27:570 Debug: void __cdecl SettingsScope::Settings::setGrabSlowdown(int)
+21:30:27:615 Debug: void __cdecl GrabManager::onGrabSlowdownChanged(int) 1
+21:30:27:615 Debug: void __cdecl GrabberBase::setGrabInterval(int) DDuplGrabber
+21:30:28:609 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:28:697 Debug: void __cdecl SettingsWindow::onGrabApplyColorTemperature_toggled(bool) true
+21:30:28:697 Debug: void __cdecl SettingsScope::Settings::setGrabApplyColorTemperatureEnabled(bool)
+21:30:28:697 Debug: void __cdecl SettingsWindow::onGrabApplyBlueLightReduction_toggled(bool) false
+21:30:28:697 Debug: void __cdecl SettingsScope::Settings::setGrabApplyBlueLightReductionEnabled(bool)
+21:30:28:697 Debug: void __cdecl SettingsScope::Settings::setGrabApplyBlueLightReductionEnabled(bool)
+21:30:28:745 Debug: void __cdecl GrabManager::onGrabApplyColorTemperatureChanged(bool) true
+21:30:28:745 Debug: void __cdecl GrabManager::onGrabApplyBlueLightReductionChanged(bool) false
+21:30:28:745 Debug: void __cdecl GrabManager::onGrabApplyBlueLightReductionChanged(bool) false
+21:30:31:305 Debug: void __cdecl SettingsWindow::onGrabApplyColorTemperature_toggled(bool) false
+21:30:31:305 Debug: void __cdecl SettingsScope::Settings::setGrabApplyColorTemperatureEnabled(bool)
+21:30:31:358 Debug: void __cdecl GrabManager::onGrabApplyColorTemperatureChanged(bool) false
+21:30:31:793 Debug: void __cdecl SettingsWindow::onGrabApplyColorTemperature_toggled(bool) true
+21:30:31:793 Debug: void __cdecl SettingsScope::Settings::setGrabApplyColorTemperatureEnabled(bool)
+21:30:31:842 Debug: void __cdecl GrabManager::onGrabApplyColorTemperatureChanged(bool) true
+21:30:32:626 Debug: void __cdecl SettingsWindow::onGrabApplyColorTemperature_toggled(bool) false
+21:30:32:626 Debug: void __cdecl SettingsScope::Settings::setGrabApplyColorTemperatureEnabled(bool)
+21:30:32:672 Debug: void __cdecl GrabManager::onGrabApplyColorTemperatureChanged(bool) false
+21:30:33:305 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:33:400 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) false
+21:30:33:400 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:30:33:442 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) false
+21:30:34:049 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) true
+21:30:34:049 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:30:34:100 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) true
+21:30:34:577 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:34:681 Debug: void __cdecl SettingsWindow::onGrabApplyBlueLightReduction_toggled(bool) true
+21:30:34:681 Debug: void __cdecl SettingsScope::Settings::setGrabApplyBlueLightReductionEnabled(bool)
+21:30:34:724 Debug: void __cdecl GrabManager::onGrabApplyBlueLightReductionChanged(bool) true
+21:30:35:560 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:35:649 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) false
+21:30:35:649 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:30:35:696 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) false
+21:30:36:841 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:36:948 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) false
+21:30:36:948 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:30:36:948 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) true
+21:30:36:948 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:30:39:496 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:39:497 Debug: void __cdecl SettingsWindow::changePage(int) 2
+21:30:40:161 Debug: void __cdecl SettingsWindow::changePage(int) 3
+21:30:40:699 Debug: void __cdecl SettingsWindow::changePage(int) 4
+21:30:42:241 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:42:339 Debug: void __cdecl SettingsWindow::onDeviceSendDataOnlyIfColorsChanged_toggled(bool) false
+21:30:42:339 Debug: void __cdecl SettingsScope::Settings::setSendDataOnlyIfColorsChanges(bool)
+21:30:42:339 Debug: void __cdecl MoodLampManager::setSendDataOnlyIfColorsChanged(bool) false
+21:30:42:339 Debug: void __cdecl SoundManagerBase::setSendDataOnlyIfColorsChanged(bool) false
+21:30:42:386 Debug: void __cdecl GrabManager::onSendDataOnlyIfColorsEnabledChanged(bool) false
+21:30:43:377 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:43:377 Debug: void __cdecl SettingsWindow::changePage(int) 0
+21:30:45:001 Debug: void __cdecl SettingsWindow::changePage(int) 4
+21:30:48:064 Debug: void __cdecl SettingsWindow::changePage(int) 3
+21:30:48:804 Debug: void __cdecl SettingsWindow::changePage(int) 5
+21:30:49:679 Debug: void __cdecl SettingsWindow::changePage(int) 4
+21:30:50:015 Debug: void __cdecl SettingsWindow::changePage(int) 3
+21:30:50:107 Debug: void __cdecl SettingsWindow::changePage(int) 2
+21:30:50:881 Debug: void __cdecl SettingsWindow::changePage(int) 3
+21:30:51:594 Debug: void __cdecl SettingsWindow::changePage(int) 1
+21:30:53:857 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:53:970 Debug: void __cdecl SettingsWindow::onDeviceDitheringEnabled_toggled(bool) false
+21:30:53:970 Debug: void __cdecl SettingsScope::Settings::setDeviceDitheringEnabled(bool)
+21:30:58:937 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:30:59:040 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 46
+21:30:59:040 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:079 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 44
+21:30:59:079 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:131 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 33
+21:30:59:131 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:180 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 26
+21:30:59:181 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:222 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 24
+21:30:59:222 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:266 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 21
+21:30:59:266 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:30:59:319 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 19
+21:30:59:319 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:00:152 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 20
+21:31:00:152 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:00:202 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 25
+21:31:00:202 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:00:254 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 32
+21:31:00:254 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:00:304 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 33
+21:31:00:304 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:00:827 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:00:881 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 45
+21:31:00:881 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:31:00:929 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 47
+21:31:00:929 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:31:00:976 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 50
+21:31:00:977 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:31:01:023 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 51
+21:31:01:024 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:31:01:416 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:01:417 Debug: void __cdecl SettingsWindow::changePage(int) 0
+21:31:02:842 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:02:945 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) true
+21:31:02:945 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:31:02:990 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) true
+21:31:03:569 Debug: void __cdecl SettingsWindow::onGrabIsAvgColors_toggled(bool) false
+21:31:03:569 Debug: void __cdecl SettingsScope::Settings::setGrabAvgColorsEnabled(bool)
+21:31:03:611 Debug: void __cdecl GrabManager::onGrabAvgColorsEnabledChanged(bool) false
+21:31:08:993 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:09:106 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 9
+21:31:09:107 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:149 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 9
+21:31:09:151 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 7
+21:31:09:151 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:191 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 7
+21:31:09:193 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 6
+21:31:09:193 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:236 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 6
+21:31:09:312 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 7
+21:31:09:312 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:350 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 7
+21:31:09:352 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 9
+21:31:09:352 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:392 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 9
+21:31:09:393 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 11
+21:31:09:393 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:436 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 11
+21:31:09:507 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 10
+21:31:09:507 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:547 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 10
+21:31:09:549 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 9
+21:31:09:549 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:591 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 9
+21:31:09:592 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 8
+21:31:09:592 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:09:634 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 8
+21:31:11:057 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:11:168 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) false
+21:31:11:168 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:31:11:168 Debug: void __cdecl SettingsWindow::onMinimumLumosity_toggled(bool) true
+21:31:11:168 Debug: void __cdecl SettingsScope::Settings::setMinimumLuminosityEnabled(bool)
+21:31:11:963 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:12:047 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 9
+21:31:12:047 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:103 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 6
+21:31:12:103 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:147 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 5
+21:31:12:147 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:231 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 6
+21:31:12:231 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:278 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 8
+21:31:12:278 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:322 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 10
+21:31:12:322 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:368 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 12
+21:31:12:368 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:12:421 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 13
+21:31:12:421 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:13:041 Debug: void __cdecl SettingsWindow::toggleBacklight(void)
+21:31:13:050 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 0
+21:31:13:050 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 0 m_deviceLockStatus = 0
+21:31:13:050 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:31:13:050 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:13:050 Debug: void __cdecl GrabManager::start(bool) false
+21:31:13:050 Debug: void __cdecl GrabberBase::stopGrabbing(void) DDuplGrabber
+21:31:13:050 Debug: void __cdecl MoodLampManager::start(bool) false
+21:31:13:050 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:13:050 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:31:13:050 Debug: void __cdecl SettingsWindow::startBacklight(void) m_backlightStatus = 0 m_deviceLockStatus = 0
+21:31:13:051 Debug: void __cdecl LedDeviceManager::switchOffLeds(void) Is last command completed: true
+21:31:13:825 Debug: void __cdecl SettingsWindow::toggleBacklight(void)
+21:31:13:832 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:31:13:832 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:31:13:832 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:31:13:832 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:13:832 Debug: void __cdecl GrabManager::start(bool) true
+21:31:13:833 Debug: void __cdecl GrabberBase::startGrabbing(void) DDuplGrabber
+21:31:13:833 Debug: void __cdecl MoodLampManager::start(bool) false
+21:31:13:833 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:13:833 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:31:13:833 Debug: void __cdecl SettingsWindow::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:31:13:833 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:31:15:357 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) null
+21:31:15:357 Debug: void __cdecl SettingsWindow::onBlur(void)
+21:31:15:357 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:31:15:357 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:31:18:171 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:18:171 Debug: void __cdecl SettingsWindow::onFocus(void)
+21:31:18:172 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:18:173 Debug: void __cdecl SettingsWindow::changePage(int) 1
+21:31:18:826 Debug: void __cdecl SettingsWindow::changePage(int) 2
+21:31:31:698 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:31:862 Debug: void __cdecl SettingsWindow::profileRename(void)
+21:31:31:864 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:31:864 Debug: void __cdecl SettingsWindow::profileRename(void) Nothing has changed
+21:31:31:864 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:32:680 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:32:793 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:32:796 Debug: void __cdecl SettingsWindow::profileSwitch(const class QString &) "New profile 2"
+21:31:32:796 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:31:32:796 Debug: void __cdecl SettingsWindow::profilesLoadAll(void) found profiles: ("Ambilight", "AMBILIGHT2", "monitor1", "New profile 2")
+21:31:32:802 Debug: void __cdecl SettingsScope::Settings::initCurrentProfile(bool) false
+21:31:32:830 Debug: void __cdecl SettingsScope::Settings::initCurrentProfile(bool) led
+21:31:32:830 Debug: void __cdecl SettingsWindow::updateUiFromSettings(void)
+21:31:32:830 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:31:32:830 Debug: void __cdecl SettingsWindow::profilesLoadAll(void) found profiles: ("Ambilight", "AMBILIGHT2", "monitor1", "New profile 2")
+21:31:32:830 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:32:831 Debug: void __cdecl SettingsWindow::onLightpackModeChanged(enum Lightpack::Mode) 0 0
+21:31:32:831 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:31:32:831 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:31:32:838 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:31:32:838 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:31:32:838 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:31:32:838 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:32:838 Debug: void __cdecl GrabManager::start(bool) true
+21:31:32:838 Debug: void __cdecl GrabberBase::startGrabbing(void) DDuplGrabber
+21:31:32:838 Debug: void __cdecl MoodLampManager::start(bool) false
+21:31:32:838 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:32:838 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:31:32:838 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:31:32:838 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:31:32:839 Debug: void __cdecl SettingsWindow::onGrabOverBrighten_valueChanged(int) 10
+21:31:32:839 Debug: void __cdecl SettingsScope::Settings::setGrabOverBrighten(int)
+21:31:32:839 Debug: void __cdecl SettingsWindow::onGrabApplyBlueLightReduction_toggled(bool) false
+21:31:32:839 Debug: void __cdecl SettingsScope::Settings::setGrabApplyBlueLightReductionEnabled(bool)
+21:31:32:839 Debug: void __cdecl SettingsWindow::onLuminosityThreshold_valueChanged(int) 2
+21:31:32:839 Debug: void __cdecl SettingsScope::Settings::setLuminosityThreshold(int)
+21:31:32:839 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:31:32:840 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:31:32:840 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:31:32:840 Debug: void __cdecl SettingsScope::Settings::setMoodLampColor(class QColor) "#00ff00"
+21:31:32:840 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:31:32:840 Debug: void __cdecl SettingsWindow::onMoodLampSpeed_valueChanged(int) 50
+21:31:32:840 Debug: void __cdecl SettingsScope::Settings::setMoodLampSpeed(int)
+21:31:32:840 Debug: void __cdecl MoodLampManager::setLiquidModeSpeed(int) 50
+21:31:32:840 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 50
+21:31:32:840 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:31:32:840 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMinColor(void)
+21:31:32:840 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerMinColor(class QColor) "#301000"
+21:31:32:840 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMaxColor(void)
+21:31:32:840 Debug: void __cdecl SettingsScope::Settings::setSoundVisualizerMaxColor(class QColor) "#0000ff"
+21:31:32:840 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:31:32:840 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:31:32:840 Debug: int __cdecl SettingsScope::Settings::getSoundVisualizerLiquidSpeed(void)
+21:31:32:840 Debug: void __cdecl SettingsWindow::onDeviceBrightness_valueChanged(int) 45
+21:31:32:840 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightness(int)
+21:31:32:841 Debug: void __cdecl SettingsWindow::onDeviceBrightnessCap_valueChanged(int) 35
+21:31:32:841 Debug: void __cdecl SettingsScope::Settings::setDeviceBrightnessCap(int)
+21:31:32:841 Debug: void __cdecl SettingsWindow::onDeviceGammaCorrection_valueChanged(double) 2
+21:31:32:841 Debug: void __cdecl SettingsScope::Settings::setDeviceGamma(double)
+21:31:32:841 Debug: void __cdecl SettingsWindow::onSliderDeviceGammaCorrection_valueChanged(int) 200
+21:31:32:841 Debug: void __cdecl SettingsScope::Settings::setDeviceGamma(double)
+21:31:32:842 Debug: enum Grab::GrabberType __cdecl SettingsScope::Settings::getGrabberType(void)
+21:31:32:842 Debug: void __cdecl SettingsWindow::onMoodLampLiquidMode_Toggled(bool) true
+21:31:32:842 Debug: void __cdecl SettingsScope::Settings::setMoodLampLiquidMode(bool)
+21:31:32:842 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:31:32:842 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:32:842 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:31:32:842 Debug: void __cdecl SettingsWindow::updateDeviceTabWidgetsVisibility(void)
+21:31:32:842 Debug: void __cdecl SettingsWindow::setDeviceTabWidgetsVisibility(enum DeviceTab::Options) 63
+21:31:32:842 Debug: void __cdecl SettingsWindow::settingsProfileChanged_UpdateUI(const class QString &)
+21:31:32:842 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:31:32:845 Debug: void __cdecl SoundManagerBase::settingsProfileChanged(const class QString &)
+21:31:32:845 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:32:846 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMinColor(void)
+21:31:32:846 Debug: class QColor __cdecl SettingsScope::Settings::getSoundVisualizerMaxColor(void)
+21:31:32:846 Debug: bool __cdecl SettingsScope::Settings::isSoundVisualizerLiquidMode(void)
+21:31:32:846 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:32:846 Debug: int __cdecl SettingsScope::Settings::getSoundVisualizerLiquidSpeed(void)
+21:31:32:846 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 60
+21:31:32:846 Debug: void __cdecl SoundManagerBase::initColors(int) 70
+21:31:32:846 Debug: Settings file: "C:/Users/ASHIL_RVD/Prismatik/Profiles/New profile 2.ini"
+21:31:32:846 Debug: class QStringList __cdecl SettingsScope::Settings::findAllProfiles(void)
+21:31:32:885 Debug: void __cdecl GrabManager::onGrabOverBrightenChanged(int) 10
+21:31:32:885 Debug: void __cdecl GrabManager::onGrabApplyBlueLightReductionChanged(bool) false
+21:31:32:885 Debug: void __cdecl GrabManager::settingsProfileChanged(const class QString &)
+21:31:32:885 Debug: void __cdecl GrabManager::setNumberOfLeds(int) 70
+21:31:32:885 Debug: void __cdecl GrabManager::initColorLists(int) 70
+21:31:32:885 Debug: void __cdecl GrabManager::initLedWidgets(int) 70
+21:31:32:885 Debug: void __cdecl GrabManager::initLedWidgets(int) Remove last 0 grab widgets
+21:31:32:885 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 0
+21:31:32:887 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:887 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:887 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 1
+21:31:32:888 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:888 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:888 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 2
+21:31:32:889 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:890 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:890 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 3
+21:31:32:891 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:891 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:892 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 4
+21:31:32:892 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:893 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:893 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 5
+21:31:32:894 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:895 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:895 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 6
+21:31:32:896 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:896 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:896 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 7
+21:31:32:897 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:897 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:897 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 8
+21:31:32:898 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:899 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:899 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 9
+21:31:32:899 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:900 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:900 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 10
+21:31:32:901 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:901 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:901 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 11
+21:31:32:902 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:902 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:902 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 12
+21:31:32:903 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:903 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:903 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 13
+21:31:32:904 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:904 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:904 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 14
+21:31:32:905 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:906 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:906 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 15
+21:31:32:906 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:907 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:907 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 16
+21:31:32:907 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:908 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:908 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 17
+21:31:32:908 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:908 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:909 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 18
+21:31:32:909 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:910 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:910 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 19
+21:31:32:910 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:911 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:911 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 20
+21:31:32:912 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:912 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:912 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 21
+21:31:32:913 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:913 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:913 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 22
+21:31:32:914 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:914 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:914 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 23
+21:31:32:915 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:915 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:915 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 24
+21:31:32:916 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:917 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:917 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 25
+21:31:32:917 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:917 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:918 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 26
+21:31:32:918 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:919 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:919 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 27
+21:31:32:919 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:920 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:920 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 28
+21:31:32:920 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:921 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:921 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 29
+21:31:32:921 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:922 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:922 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 30
+21:31:32:922 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:923 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:923 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 31
+21:31:32:923 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:924 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:924 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 32
+21:31:32:925 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:925 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:925 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 33
+21:31:32:926 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:927 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:927 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 34
+21:31:32:927 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:928 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:928 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 35
+21:31:32:928 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:929 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:929 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 36
+21:31:32:930 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:930 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:930 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 37
+21:31:32:931 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:931 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:931 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 38
+21:31:32:932 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:932 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:932 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 39
+21:31:32:933 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:933 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:933 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 40
+21:31:32:934 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:934 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:934 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 41
+21:31:32:935 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:935 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:935 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 42
+21:31:32:936 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:936 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:936 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 43
+21:31:32:937 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:937 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:937 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 44
+21:31:32:938 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:938 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:938 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 45
+21:31:32:939 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:939 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:939 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 46
+21:31:32:940 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:940 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:941 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 47
+21:31:32:941 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:941 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:941 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 48
+21:31:32:942 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:942 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:943 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 49
+21:31:32:943 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:944 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:944 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 50
+21:31:32:944 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:945 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:945 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 51
+21:31:32:945 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:946 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:946 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 52
+21:31:32:947 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:947 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:947 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 53
+21:31:32:948 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:949 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:949 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 54
+21:31:32:950 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:950 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:950 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 55
+21:31:32:951 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:951 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:951 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 56
+21:31:32:952 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:952 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:952 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 57
+21:31:32:953 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:954 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:954 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 58
+21:31:32:954 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:955 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:955 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 59
+21:31:32:956 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:957 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:957 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 60
+21:31:32:958 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:958 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:959 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 61
+21:31:32:959 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:960 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:961 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 62
+21:31:32:961 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:962 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:962 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 63
+21:31:32:962 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:963 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:963 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 64
+21:31:32:964 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:964 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:964 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 65
+21:31:32:965 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:965 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:965 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 66
+21:31:32:966 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:967 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:967 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 67
+21:31:32:968 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:968 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:968 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 68
+21:31:32:969 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:969 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:969 Debug: void __cdecl GrabWidget::settingsProfileChanged(void) 69
+21:31:32:970 Debug: void __cdecl SettingsScope::Settings::setLedCoefRed(int,double)
+21:31:32:970 Debug: void __cdecl SettingsScope::Settings::setLedCoefGreen(int,double)
+21:31:32:970 Debug: void __cdecl MoodLampManager::settingsProfileChanged(const class QString &)
+21:31:32:971 Debug: int __cdecl SettingsScope::Settings::getMoodLampSpeed(void)
+21:31:32:971 Debug: void __cdecl LiquidColorGenerator::setSpeed(int) 50
+21:31:32:971 Debug: class QColor __cdecl SettingsScope::Settings::getMoodLampColor(void)
+21:31:32:971 Debug: bool __cdecl SettingsScope::Settings::isMoodLampLiquidMode(void)
+21:31:32:971 Debug: void __cdecl MoodLampManager::setLiquidMode(bool) true
+21:31:32:971 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:32:971 Debug: void __cdecl MoodLampManager::initColors(int) 70
+21:31:32:971 Debug: int __cdecl SettingsScope::Settings::getMoodLampLamp(void)
+21:31:36:869 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:36:870 Debug: void __cdecl SettingsWindow::changePage(int) 0
+21:31:37:680 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:37:841 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:38:434 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:38:436 Debug: void __cdecl SettingsWindow::onLightpackModes_currentIndexChanged(int) 1 QComboBox(0x21b9d9a3a80, name = "comboBox_LightpackModes")
+21:31:38:436 Debug: void __cdecl SettingsScope::Settings::setLightpackMode(enum Lightpack::Mode) 1
+21:31:38:436 Debug: void __cdecl SettingsWindow::onLightpackModeChanged(enum Lightpack::Mode) 1 1
+21:31:38:437 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:31:38:437 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:31:38:440 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:31:38:440 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:31:38:440 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:31:38:440 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:38:440 Debug: void __cdecl GrabManager::start(bool) false
+21:31:38:440 Debug: void __cdecl GrabberBase::stopGrabbing(void) DDuplGrabber
+21:31:38:440 Debug: void __cdecl MoodLampManager::start(bool) true
+21:31:38:440 Debug: void __cdecl LiquidColorGenerator::start(void)
+21:31:38:440 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:31:38:441 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:31:39:195 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:40:635 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:40:638 Debug: void __cdecl SettingsWindow::onLightpackModes_currentIndexChanged(int) 0 QComboBox(0x21b9d9a3a80, name = "comboBox_LightpackModes")
+21:31:40:638 Debug: void __cdecl SettingsScope::Settings::setLightpackMode(enum Lightpack::Mode) 0
+21:31:40:638 Debug: void __cdecl SettingsWindow::onLightpackModeChanged(enum Lightpack::Mode) 0 0
+21:31:40:638 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:31:40:639 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:31:40:641 Debug: void __cdecl LightpackApplication::setStatusChanged(enum Backlight::Status) 1
+21:31:40:641 Debug: void __cdecl LightpackApplication::startBacklight(void) m_backlightStatus = 1 m_deviceLockStatus = 0
+21:31:40:641 Debug: void __cdecl SettingsScope::Settings::setIsBacklightEnabled(bool)
+21:31:40:641 Debug: enum Lightpack::Mode __cdecl SettingsScope::Settings::getLightpackMode(void)
+21:31:40:641 Debug: void __cdecl GrabManager::start(bool) true
+21:31:40:641 Debug: void __cdecl GrabberBase::startGrabbing(void) DDuplGrabber
+21:31:40:641 Debug: void __cdecl MoodLampManager::start(bool) false
+21:31:40:641 Debug: void __cdecl LiquidColorGenerator::stop(void)
+21:31:40:641 Debug: void __cdecl WindowsSoundManager::start(bool) false
+21:31:40:642 Debug: void __cdecl LedDeviceManager::switchOnLeds(void)
+21:31:45:121 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:45:122 Debug: void __cdecl SettingsWindow::changePage(int) 4
+21:31:46:752 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:31:46:872 Debug: void __cdecl SettingsWindow::onDx1011CaptureEnabledChanged(bool) false
+21:31:46:911 Debug: void __cdecl GrabManager::onDx1011GrabberEnabledChanged(bool) false
+21:31:49:335 Debug: void __cdecl `anonymous-namespace'::D3D10GrabberInjector::sanitizeProcesses(void) Sanitizing process  14928
+21:31:49:338 Debug: void __cdecl `anonymous-namespace'::D3D10GrabberInjector::sanitizeProcesses(void) Sanitizing process  27440
+21:31:49:341 Warning: QObject::disconnect: signal not found in D3D10GrabberImpl
+21:31:51:778 Debug: void __cdecl SettingsWindow::onDx1011CaptureEnabledChanged(bool) true
+21:31:51:813 Debug: void __cdecl GrabManager::onDx1011GrabberEnabledChanged(bool) true
+21:31:51:813 Debug: int __cdecl SettingsScope::Settings::getGrabSlowdown(void)
+21:31:55:667 Debug: void __cdecl D3D10Grabber::setGrabInterval(int) D3D10Grabber
+21:31:55:667 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) null
+21:31:55:667 Debug: void __cdecl SettingsWindow::onBlur(void)
+21:31:55:667 Debug: void __cdecl LightpackApplication::showLedWidgets(bool) false
+21:31:55:667 Debug: void __cdecl GrabManager::setVisibleLedWidgets(bool) false
+21:32:00:729 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:32:00:729 Debug: void __cdecl SettingsWindow::onFocus(void)
+21:32:00:733 Debug: void __cdecl LightpackApplication::onFocusChanged(class QWidget *,class QWidget *) SettingsWindow
+21:32:01:162 Debug: void __cdecl SettingsWindow::onLoggingLevel_valueChanged(int) 0
+21:33:32:793 Warning: QObject::disconnect: signal not found in D3D10GrabberImpl
